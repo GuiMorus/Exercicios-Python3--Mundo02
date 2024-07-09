@@ -5,6 +5,10 @@
 
 from datetime import datetime
 
+# Mensagem de entrada
+print("\033[32m", "-=" * 15, " 💂‍♂️ BEM VINDO AO ALISTAMENTO VIRTUAL 💂‍♂️ ", "-=" * 15)
+print("O \033[32mB\033[34mr\033[33ma\033[ms\033[32mi\033[34ml \033[32mprecisa de você, soldado!", end="")
+print("\033[m")
 # Variável resgatando o ano de nascimento
 ano = int(input("Em que ano você nasceu: "))
 mes = int(input("Em que mês(número): "))
@@ -27,4 +31,6 @@ elif idade < 18:
 elif idade > 18:
     dif = idade - 18
     print(f"Você já tem {idade} anos")
-    print(f"Você tinha que se alistar no ano de {ano_atual - dif}, se apresente ao alistamento mais perto")
+    print(f"Você tinha que se alistar no ano de {ano_atual - dif}, apresente-se ao alistamento mais perto")
+
+print("\033[32m", "-=" * 17, " 💂‍ SERVIÇO DE ALISTAMENTO 💂‍ ", "-=" * 18)
