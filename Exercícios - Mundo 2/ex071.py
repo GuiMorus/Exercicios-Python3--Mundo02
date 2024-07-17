@@ -8,7 +8,7 @@ from random import choice
 cedula200 = 0
 cedula100 = 0
 cedula50 = 0
-cedula25 = 0
+cedula20 = 0
 cedula10 = 0
 cedula5 = 0
 cedula1 = 0
@@ -54,7 +54,7 @@ while not saque == 0:
 
     # Verificando se o saque é maior que 50
     elif 50 <= saque < 100:
-        cedula = choice([50, 25])
+        cedula = choice([50, 20])
 
         # Diminuindo saque
         saque -= cedula
@@ -63,8 +63,8 @@ while not saque == 0:
         match cedula:
             case 50:
                 cedula50 += 1
-            case 25:
-                cedula25 += 1
+            case 20:
+                cedula20 += 1
 
     # Verificando se o saque é maior que 10
     elif 10 <= saque < 50:
@@ -114,8 +114,8 @@ if cedula100 > 0:
 if cedula50 > 0:
     print("\033[34m" + f"{cedula50}\033[m notas de R$50,00")
 
-if cedula25 > 0:
-    print("\033[34m" + f"{cedula25}\033[m notas de R$25,00")
+if cedula20 > 0:
+    print("\033[34m" + f"{cedula20}\033[m notas de R$20,00")
 
 if cedula10 > 0:
     print("\033[34m" + f"{cedula10}\033[m notas de R$10,00")
