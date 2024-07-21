@@ -1,4 +1,4 @@
-# Exercicios Python3 (Curso em Vídeo - Mundo 03)
+# Exercicios Python3 (Curso em Vídeo - Mundo 02)
 Boas-vindas ao meu Repositório de exercícios em Python 3
 
 Cumprindo com meu objetivo no GitHub, aqui você poderá acompanhar minha evolução
